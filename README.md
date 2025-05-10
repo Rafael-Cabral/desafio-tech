@@ -60,7 +60,7 @@ OPENAI_API_KEY=SUA_CHAVE
 
 ### 3. Subir a aplicação com Docker Compose
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 - O backend estará disponível em: http://localhost:8001
 - O frontend estará disponível em: http://localhost:3000
