@@ -44,6 +44,12 @@ Este repositório implementa uma plataforma fullstack para recomendação inteli
 
 ## Instalação e Execução
 
+### Acesso público
+
+Acesse a aplicação em produção por:
+
+[Clique aqui para abrir o App](http://ec2-34-227-173-113.compute-1.amazonaws.com:3000/)
+
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/Rafael-Cabral/desafio-tech.git
