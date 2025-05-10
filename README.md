@@ -4,6 +4,12 @@
 
 Este repositório implementa uma plataforma fullstack para recomendação inteligente de veículos, utilizando IA generativa e integração com APIs. O sistema é composto por um backend Python (FastAPI) e um frontend moderno em Next.js/React, permitindo interações em tempo real via WebSocket.
 
+### Acesso público
+
+Acesse a aplicação em produção por:
+
+[Clique aqui para abrir o App](http://ec2-34-227-173-113.compute-1.amazonaws.com:3000/)
+
 ## Arquitetura
 
 - **Backend**: Python, FastAPI, CrewAI, WebSocket, integração com OpenAI e ferramentas de busca de veículos.
@@ -43,12 +49,6 @@ Este repositório implementa uma plataforma fullstack para recomendação inteli
 - (Opcional para dev) Python 3.10+ e Node.js 18+
 
 ## Instalação e Execução
-
-### Acesso público
-
-Acesse a aplicação em produção por:
-
-[Clique aqui para abrir o App](http://ec2-34-227-173-113.compute-1.amazonaws.com:3000/)
 
 ### 1. Clonar o repositório
 ```bash
