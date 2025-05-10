@@ -1,5 +1,5 @@
 from crewai import Agent, Task, Crew, Process
-from search_tool import busca_veiculo
+from .search_tool import busca_veiculo
 
 agente_busca = Agent(
     role="Consultor de Veículos — Especialista em Match Perfeito",
