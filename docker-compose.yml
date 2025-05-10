@@ -5,9 +5,8 @@ services:
     build: ./backend
     ports:
       - "8001:8001"
-    environment:
-      - MODEL=gpt-4.1
-      - OPENAI_API_KEY=SUA_API
+    env_file:
+      - .env
     volumes:
       - ./backend/data:/app/data
       - ./backend/images:/app/images
